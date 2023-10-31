@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+.container-left {
+  width: 70%;
+}
+.card {
+  width: 31%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  max-height: 650px;
+  min-height: 650px;
+}
+p.basket {
+  font-size: 20px;
+  font-weight: 500;
+}
+p.name {
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  margin-right: 15px;
+}
+.image {
+  min-width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.card-details {
+  padding: 25px 5px;
+  width: 100%;
+}
+.card-details-text {
+  width: 100%;
+  min-height: 350px;
+  max-width: 350px;
+}
+.favourite-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.favourite-icon i {
+  color: gray;
+}
+.card-details .name {
+  font-weight: bold;
+}
+.card-details .price {
+  font-size: 20px;
+}
+
+.card-details .rating {
+  margin-bottom: 10px;
+}
+.card-details .stock-count {
+  color: gray;
+}
+.basket-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basket-image {
+  width: 100px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.basket-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 400px;
+  min-width: 800px;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.box .basket-item {
+  width: 100%;
+  min-height: 120px;
+  max-height: 220px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 10px;
+}
+.basket-delete-buttons {
+  width: 70px;
+  height: 30px;
+}
+.basket-delete-buttons button {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.basket-item-namePrice {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 700px;
+}
+p.favourite {
+  font-size: 20px;
+  font-weight: 500;
+}
